@@ -1,0 +1,144 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 1100px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	justify-content: center;
+	align-items: center;
+}
+.header{
+	width: 100%;
+	height: 65px;
+	background: #323232;
+	position: fixed;
+}
+.container1{
+	max-width: 1100px;
+	margin: auto;
+}
+.logo{
+	color: #fff;
+	float: left;
+}
+.menu{
+	float: right;
+	line-height: 50px;
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+}
+.menu a{
+	display: block;
+	padding: 0px 20px;
+	text-decoration: none;
+	color: #fff;
+	transition: all 500ms ease;
+}
+.menu a:hover{
+	background: #fff;
+	color: #323232;
+}
+.menu .submenu{
+	background: #323232;
+	box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.2);
+	display: none;
+}
+.menu .submenu2{
+	background: #323232;
+	box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.2);
+	display: none;
+}
+.menu .submenu li a{
+	line-height: 50px;
+}
+.menu ul li a:hover + ul, .menu .submenu:hover{
+	display: block;
+}
+.barra{
+	background-color: #323232;
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top: 400px;
+	cursor: default;
+	color: #fff;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.portada img{
+	width: 100%;
+	height: 350px;
+	position: absolute;
+	top: 100px;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.container2{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1100px;
+}
+.card{
+	width: 350px;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+	cursor: default;
+	transition: all 400ms ease;
+
+	position: relative;
+	top: 450px;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido p{
+	line-height: 1.5;
+	color: #6a6a6a;
+}
+.card .contenido h3{
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+.card .contenido a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	color: #323232;
+	border: 1px solid #323232;
+	border-radius: 4px;
+	transition: all 400ms ease;
+}
+.card .contenido a:hover{
+	background: #323232;
+	color: #fff;
+}
+.footer{
+	background-color: #323232;
+	position: absolute;
+	top: 1100px;
+	width: 100%;
+	height: 20px;
+	color: #fff;
+	text-align: center;
+}
