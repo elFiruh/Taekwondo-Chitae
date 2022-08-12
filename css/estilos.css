@@ -134,66 +134,16 @@ body::-webkit-scrollbar-thumb{
 	position: relative;
 	display: inline-block;
 	padding: 15px 30px;
-	color: #323232;
-	letter-spacing: 4px;
+	color: #5086c1;
+	border-radius: 5px;
+	border: 1px solid #5086c1;
 	font-size: 24px;
 	text-decoration: none;
-	overflow: hidden;
-	transition: 0.2s;
+	transition: all 400ms ease;
 }
 .card .contenido a:hover{
-	background: #323232;
+	background: #5086c1;
 	color: #fff;
-	box-shadow: 0 0 10px #c63637, 0 0 40px #5086c1, 0 0 80px #c63637;
-	transition-delay: 1s;
-}
-.card .contenido a span{
-	position: absolute;
-	display: block;
-}
-#span1{
-	top: 0;
-	left: -100%;
-	width: 200px;
-	height: 2px;
-	background: linear-gradient(90deg,#c63637,#5086c1);
-}
-.card .contenido a:hover #span1{
-	left: 0;
-	transition: 1s;
-}
-#span3{
-	bottom: 0;
-	right: -100%;
-	width: 200px;
-	height: 2px;
-	background: linear-gradient(270deg,#c63637,#5086c1);
-}
-.card .contenido a:hover #span3{
-	right: 0;
-	transition: 1s;
-}
-#span2{
-	top: -100%;
-	right: 0;
-	width: 2px;
-	height: 100%;
-	background: linear-gradient(180deg,#c63637,#5086c1);
-}
-.card .contenido a:hover #span2{
-	top: 0;
-	transition: 1s;
-}
-#span4{
-	bottom: -100%;
-	left: 0;
-	width: 2px;
-	height: 100%;
-	background: linear-gradient(360deg,#c63637,#5086c1);
-}
-.card .contenido a:hover #span4{
-	bottom: 0;
-	transition: 1s;
 }
 .footer{
 	background-color: #5086c1;
