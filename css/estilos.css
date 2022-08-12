@@ -11,16 +11,17 @@ body{
 }
 body::-webkit-scrollbar{
 	width: 12px;
-	background: rgb(10, 10, 150);
+	background: #c63637;
 }
 body::-webkit-scrollbar-thumb{
-	background: rgb(150, 10, 10);
+	background: #5086c1;
 	border-radius: 5px;
+	border: 2px solid #323232;
 }
 .header{
 	width: 100%;
 	height: 65px;
-	background: #323232;
+	background: #c63637;
 	position: fixed;
 }
 .container1{
@@ -38,6 +39,7 @@ body::-webkit-scrollbar-thumb{
 .menu ul{
 	display: flex;
 	list-style: none;
+	justify-content: space-between;
 }
 .menu a{
 	display: block;
@@ -47,18 +49,18 @@ body::-webkit-scrollbar-thumb{
 	transition: all 500ms ease;
 }
 .menu a:hover{
-	background: #fff;
-	color: #323232;
+	background: #5086c1;
+	color: #fff;
 }
 .menu .submenu{
-	background: #323232;
+	background: #c63637;
 	box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.2);
 	display: none;
 }
 .menu .submenu2{
-	background: #323232;
+	background: #c63637;
 	box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.2);
-	display: none;
+	display: ;
 }
 .menu .submenu li a{
 	line-height: 50px;
@@ -67,7 +69,7 @@ body::-webkit-scrollbar-thumb{
 	display: block;
 }
 .barra{
-	background-color: #323232;
+	background-color: #5086c1;
 	width: 100%;
 	height: 50px;
 	position: absolute;
@@ -122,7 +124,7 @@ body::-webkit-scrollbar-thumb{
 }
 .card .contenido p{
 	line-height: 1.5;
-	color: #6a6a6a;
+	color: #6a6a6a; 
 }
 .card .contenido h3{
 	font-weight: 400;
@@ -142,7 +144,7 @@ body::-webkit-scrollbar-thumb{
 .card .contenido a:hover{
 	background: #323232;
 	color: #fff;
-	box-shadow: 0 0 10px #323232, 0 0 40px #323232, 0 0 80px #323232;
+	box-shadow: 0 0 10px #c63637, 0 0 40px #5086c1, 0 0 80px #c63637;
 	transition-delay: 1s;
 }
 .card .contenido a span{
@@ -154,7 +156,7 @@ body::-webkit-scrollbar-thumb{
 	left: -100%;
 	width: 200px;
 	height: 2px;
-	background: linear-gradient(90deg,#323232,#323232);
+	background: linear-gradient(90deg,#c63637,#5086c1);
 }
 .card .contenido a:hover #span1{
 	left: 0;
@@ -165,7 +167,7 @@ body::-webkit-scrollbar-thumb{
 	right: -100%;
 	width: 200px;
 	height: 2px;
-	background: linear-gradient(270deg,#323232,#323232);
+	background: linear-gradient(270deg,#c63637,#5086c1);
 }
 .card .contenido a:hover #span3{
 	right: 0;
@@ -176,7 +178,7 @@ body::-webkit-scrollbar-thumb{
 	right: 0;
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(180deg,#323232,#323232);
+	background: linear-gradient(180deg,#c63637,#5086c1);
 }
 .card .contenido a:hover #span2{
 	top: 0;
@@ -187,14 +189,14 @@ body::-webkit-scrollbar-thumb{
 	left: 0;
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(360deg,#323232,#323232);
+	background: linear-gradient(360deg,#c63637,#5086c1);
 }
 .card .contenido a:hover #span4{
 	bottom: 0;
 	transition: 1s;
 }
 .footer{
-	background-color: #323232;
+	background-color: #5086c1;
 	position: fixed;
 	bottom: 0px;
 	width: 100%;
