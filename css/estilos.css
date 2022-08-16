@@ -23,6 +23,7 @@ body::-webkit-scrollbar-thumb{
 	height: 65px;
 	background: #c63637;
 	position: fixed;
+	box-shadow: 5px 0 10px #000;
 }
 .container1{
 	max-width: 1100px;
@@ -37,11 +38,13 @@ body::-webkit-scrollbar-thumb{
 	line-height: 50px;
 }
 .menu ul{
+	text-align: center;
 	display: flex;
 	list-style: none;
 	justify-content: space-between;
 }
 .menu a{
+	text-align: center;
 	display: block;
 	padding: 0px 20px;
 	text-decoration: none;
@@ -49,23 +52,31 @@ body::-webkit-scrollbar-thumb{
 	transition: all 500ms ease;
 }
 .menu a:hover{
-	background: #5086c1;
-	color: #fff;
+	background: #fff;
+	color: #000;
 }
 .menu .submenu{
+	padding: 0;
+	text-align: center;
 	background: #c63637;
 	box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.2);
 	display: none;
 }
 .menu .submenu2{
+	padding: 0;
+	text-align: center;
+	position: relative;
+	right: 0;
+	top: 0;
 	background: #c63637;
 	box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.2);
-	display: ;
-}
-.menu .submenu li a{
-	line-height: 50px;
+	display: none;
+	transition: all 400ms ease;
 }
 .menu ul li a:hover + ul, .menu .submenu:hover{
+	display: block;
+}
+.menu ul li a:hover + ul, .menu .submenu2:hover{
 	display: block;
 }
 .barra{
