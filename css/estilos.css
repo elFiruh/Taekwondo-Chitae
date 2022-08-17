@@ -111,7 +111,7 @@ body::-webkit-scrollbar-thumb{
 	width: 100%;
 	max-width: 1100px;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.container2{
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
