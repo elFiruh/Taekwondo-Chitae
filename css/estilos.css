@@ -23,6 +23,7 @@ body::-webkit-scrollbar-thumb{
 	height: 65px;
 	background: #c63637;
 	position: fixed;
+	z-index: 2;
 	box-shadow: 5px 0 10px #000;
 }
 .container1{
@@ -195,11 +196,3 @@ body::-webkit-scrollbar-thumb{
 	color: #fff;
 }
 .footer{
-	background-color: #5086c1;
-	position: fixed;
-	bottom: 0px;
-	width: 100%;
-	height: 20px;
-	color: #fff;
-	text-align: center;
-}
