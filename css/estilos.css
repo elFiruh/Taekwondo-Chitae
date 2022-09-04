@@ -1,5 +1,7 @@
 body{
-	background: #fff;
+	background: url(portada.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -84,24 +86,14 @@ body::-webkit-scrollbar-thumb{
 	background-color: #5086c1;
 	width: 100%;
 	height: 50px;
-	position: absolute;
-	top: 400px;
+	position: fixed;
+	top: 65px;
 	cursor: default;
 	color: #fff;
-
+	z-index: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-.portada img{
-	width: 100%;
-	height: 370px;
-	position: absolute;
-	top: 65px;
-
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
 }
 
 .container2{
@@ -159,7 +151,7 @@ body::-webkit-scrollbar-thumb{
 	transition: all 400ms ease;
 
 	position: relative;
-	top: 450px;
+	top: 150px;
 }
 .card:hover{
 	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
